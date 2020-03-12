@@ -1,0 +1,7 @@
+//package designpatterns.examples.strategy;
+package com.headfirst.designpatterns.strategy;
+public class Quack implements QuackBehavior{
+    public void quack(){
+        System.out.println("Quack");
+    }
+}
